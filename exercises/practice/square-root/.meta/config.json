@@ -1,7 +1,5 @@
 {
-  "authors": [
-    "quintuple-mallard"
-  ],
+  "authors": ["quintuple-mallard"],
   "files": {
     "solution": [
       "src/SquareRoot.hs",
