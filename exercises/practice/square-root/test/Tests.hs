@@ -24,27 +24,27 @@ data Case = Case { description :: String
                  }
 
 cases :: [Case]
-cases = [ Case { description = "year not divisible by 4 in common year"
+cases = [ Case { description = "square root of 1"
                , input       = 1
                , expected    = 1
                }
-        , Case { description = "year divisible by 2, not divisible by 4 in common year"
+        , Case { description = "square root of 4"
                , input       = 4
                , expected    = 2
                }
-        , Case { description = "year divisible by 4, not divisible by 100 in leap year"
+        , Case { description = "square root of 25"
                , input       = 25
                , expected    = 5
                }
-        , Case { description = "year divisible by 4 and 5 is still a leap year"
+        , Case { description = "square root of 81"
                , input       = 81
                , expected    = 9
                }
-        , Case { description = "year divisible by 100, not divisible by 400 in common year"
+        , Case { description = "square root of 196"
                , input       = 196
                , expected    = 14
                }
-        , Case { description = "year divisible by 100 but not by 3 is still not a leap year"
+        , Case { description = "square root of 65025"
                , input       = 65025
                , expected    = 255
                }
