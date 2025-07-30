@@ -10,6 +10,9 @@
     ],
     "example": [
       ".meta/examples/success-standard/src/SquareRoot.hs"
+    ],
+    "invalidator": [
+      "stack.yaml"
     ]
   },
   "blurb": "Given a natural radicand, return its square root.",
