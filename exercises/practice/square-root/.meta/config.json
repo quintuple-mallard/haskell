@@ -1,0 +1,18 @@
+{
+  "authors": ["quintuple-mallard"],
+  "files": {
+    "solution": [
+      "src/SquareRoot.hs",
+      "package.yaml"
+    ],
+    "test": [
+      "test/Tests.hs"
+    ],
+    "example": [
+      ".meta/examples/success-standard/src/SquareRoot.hs"
+    ]
+  },
+  "blurb": "Given a natural radicand, return its square root.",
+  "source": "wolf99",
+  "source_url": "https://github.com/exercism/problem-specifications/pull/1582"
+}
